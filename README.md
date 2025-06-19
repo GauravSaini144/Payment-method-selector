@@ -1,12 +1,62 @@
-# React + Vite
+### --> LIVE LINK -   https://payment-method-selector1.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### --> Payment Method Selector Description -##################################
+Payment Method Selector is a modern, responsive React component that allows users to select and enter payment details for different payment methods including:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Google Pay
+Apple Pay
+PayPal
+Paytm
+Visa
+Mastercard
 
-## Expanding the ESLint configuration
+## Features ##
+Smooth animated toggle between payment methods using Framer Motion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Real-time validation for UPI, Email, Phone Number, and Card inputs
+
+Submission feedback using react-hot-toast
+
+Persistent selection using localStorage
+
+Clear and minimal UI for a better user experience
+
+## Tech Used ##
+
+Technology	
+React.js
+Framer Motion
+Tailwind CSS
+react-hot-toast	
+LocalStorage	Persist selected payment method
+react-router-dom
+
+
+## Screenshots-----
+![img1](https://github.com/user-attachments/assets/fa19b01d-9d29-46be-854b-e30f7d744bd2)
+![img2](https://github.com/user-attachments/assets/0dae64e4-1765-4e8f-afdd-3c7bafb163f2)
+![img3](https://github.com/user-attachments/assets/53d7afd1-da40-4cb1-a77f-0b9fc9318c5e)
+![img4](https://github.com/user-attachments/assets/00ddef7c-303f-4cfc-bbab-f20340f44d49)
+![img5](https://github.com/user-attachments/assets/52972534-a5d9-4320-a102-df0524a2a4e7)
+![img6](https://github.com/user-attachments/assets/41a069e8-9e1b-4484-a994-2575c1d8c94e)
+
+
+### --> Setup Instructions  ####
+ 1. Clone the Repository
+
+git clone https://github.com/your-username/payment-method-selector.git
+cd payment-method-selector/payment-method-selector
+Replace your-username with your actual GitHub username.
+
+2. Install Dependencies
+
+npm install
+
+3. Run the Development Server
+
+npm run dev
+
+
+
+
