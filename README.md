@@ -46,7 +46,9 @@ react-router-dom
  1. Clone the Repository
 
 git clone https://github.com/your-username/payment-method-selector.git
+
 cd payment-method-selector/payment-method-selector
+
 Replace your-username with your actual GitHub username.
 
 2. Install Dependencies
